@@ -1,0 +1,26 @@
+.header {
+    height: 60vh; /* Adjust the height as needed */
+    position:static; /* Required for absolute positioning of inner elements */
+}
+
+.carousel img{
+    width: 20%;
+    height: auto;
+    margin: auto;
+}
+
+.carousel-inner img {
+    height: 100%; /* Ensure images take full height */
+    object-fit: cover; /* Keep aspect ratio */
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5); /* Background color for better visibility */
+}
+
+@media (max-width: 768px) {
+    .header {
+        height: 30vh; /* Adjust for smaller screens */
+    }
+}
